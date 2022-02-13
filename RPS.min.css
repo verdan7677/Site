@@ -1,1 +1,12 @@
-#mainContent{background-color:#0b0236}
+#mainContent{
+    background-color: #0b0236;
+}
+
+.Options{
+    height: 200px;
+    width: 200px;
+}
+
+#Result{
+    color: aliceblue;
+}
