@@ -10,21 +10,17 @@
 </head>
 
 <body>
+    <div id="allOptions">
+        <div id="rock" class="Options" onclick="opt(1)">Rock</div>
+
+        <div id="paper" class="Options" onclick="opt(2)">Paper</div>
+
+        <div id="paper" class="Options" onclick="opt(3)">Scissors</div>
+
+    </div>
+
     <div id="mainContent">
-        <div id "allOptions">
-            <h4 id="Guesser1">a</h4>
-            <img src="Rock.jpg" alt="Rock's Image" id="rock" class="Options" onclick="opt(1)">
-
-            <h4 id="Guesser2">a</h4>
-            <img src="Paper.webp" alt="Paper'sImage" id="paper" class="Options" onclick="opt(2)">
-
-            <h4 id="Guesser1">a</h4>
-            <img src="Scissors.jpg" alt="Scissor'sImage" id="paper" class="Options" onclick="opt(3)">
-        </div>
-
-
         <h1 id="Result">Your Result is : </h1>
-        <button id="reset" onclick="reset()">reset</button>
     </div>
 
     <script src="RPS.js"></script>

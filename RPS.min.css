@@ -1,12 +1,38 @@
-#mainContent{
-    background-color: #0b0236;
+
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: cornflowerblue;
+}
+
+#allOptions{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .Options{
-    height: 200px;
-    width: 200px;
+    border: 3px;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 50px 100px;
+    background: rgb(178, 231, 82);
+    border-color: rgb(178, 231, 82);
+    font-size: xx-large;
+    margin: 10vh;
+
 }
 
-#Result{
-    color: aliceblue;
+.Options:hover{
+    transition: 0.2s;
+    box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, 0.2);
+    height: 1.5em;
 }
+
+#mainContent{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+

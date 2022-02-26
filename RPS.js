@@ -2,24 +2,12 @@ let result = document.getElementById("Result")
 let HasReset = true;
 
 function opt(input) {
-    if (HasReset) {
-        let Won = 0
-        let CompOption = Math.floor((Math.random() * 3) + 1);
-        console.log(CompOption)
-        gameLogic(input, CompOption)
-
-
-
-        HasReset = false
-    } else {
-        alert("Please! reset the game")
-    }
-}
-
-function reset() {
     UserChoise = 0
-    HasReset = true
     result.textContent = "Your Result is : "
+    let Won = 0
+    let CompOption = Math.floor((Math.random() * 3) + 1);
+    console.log(CompOption)
+    gameLogic(input, CompOption)
 }
 
 function gameLogic(input, CompOption) {
